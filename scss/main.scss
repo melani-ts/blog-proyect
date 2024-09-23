@@ -1,0 +1,154 @@
+$main-green: #47cfac;
+
+@mixin none-decoration {
+   text-decoration: none;
+   color: #000;
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: 'Roboto mono', monospace;
+   width: 100vw;
+   height: 100vh;
+
+
+   header {
+      width: 100vw;
+      height: 20vh;
+
+      section {
+         background-color: $main-green;
+         max-width: auto;
+         height: auto;
+
+         div {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 30px;
+            padding: 10px 50px;
+
+
+            a {
+               @include none-decoration;
+            }
+         }
+
+      }
+
+      nav {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 30px 50px;
+
+         div {
+            a {
+               @include none-decoration;
+            }
+
+            img {
+               width: 220px;
+               min-width: 100px;
+            }
+
+            .about-me {
+               font-size: 1.8rem;
+               color: #000;
+               border-bottom: 1px solid #000;
+               font-weight: 600;
+            }
+         }
+      }
+   }
+
+   .main-container {
+
+      section {
+         background-image: url("/assets/img/Cover.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         width: auto;
+         height: 80vh;
+
+         div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            gap: 100px;
+
+            h1 {
+               color: #FFF;
+               font-size: 3.0rem;
+               font-weight: 900;
+               white-space: pre-line;
+               letter-spacing: 10px;
+            }
+
+            button {
+               background-color: $main-green;
+               font-size: 2.0rem;
+               font-weight: 600;
+               padding: 15px;
+               border: none;
+               cursor: pointer;
+
+               a {
+                  @include none-decoration();
+               }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+   body {
+      padding: 0;
+
+      header {
+         width: 100%;
+         height: 10vh;
+         padding: 0;
+
+         section {
+            width: 100%;
+
+            div {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               text-align: center;
+            }
+         }
+
+         nav {
+            width: 100%;
+            padding: 0;
+            justify-content: center;
+         }
+      }
+
+      main {
+         section {
+            width: 100%;
+            height: 90vh;
+         }
+      }
+   }
+}

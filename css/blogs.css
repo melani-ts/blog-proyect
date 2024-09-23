@@ -1,0 +1,120 @@
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+body .main-container-blogpost .section-newpost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  background-color: #e6e9ed;
+  padding: 50px;
+  width: 100%;
+  height: auto;
+}
+body .main-container-blogpost .section-newpost div h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+body .main-container-blogpost .section-newpost div h2 {
+  font-size: 2.5rem;
+}
+body .main-container-blogpost .section-newpost div p {
+  white-space: pre-line;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+body .main-container-blogpost .section-newpost div img {
+  width: 40vw;
+}
+body .main-container-blogpost .section-newpost div a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid #47cfac;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+body .main-container-blogpost .section-newpost .title-newpost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+body .main-container-blogpost .section-oldPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  width: 100%;
+  height: auto;
+}
+body .main-container-blogpost .section-oldPost h1 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 60%;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost div {
+  width: 300px;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost div article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost div article img {
+  width: 100%;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost div article h4 {
+  font-size: 1.8rem;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost div article p {
+  white-space: pre-line;
+  font-size: 1.6rem;
+}
+body .main-container-blogpost .section-oldPost .div-oldPost div article a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid #47cfac;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+body footer {
+  width: 100%;
+  height: 10vh;
+  margin-top: 15px;
+  background-color: #22272d;
+  border-top: 35px solid #47cfac;
+  text-align: center;
+}
+body footer p {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.8rem;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body body header {
+    margin-bottom: 25px;
+  }
+  body body footer p {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=blogs.css.map */

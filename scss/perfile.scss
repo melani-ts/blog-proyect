@@ -1,0 +1,27 @@
+body {
+   .main-container-blogpost {
+
+      .section-newpost {
+         div {
+
+            img {
+               width: 22vw;
+               border-radius: 50%;
+            }
+
+         }
+      }
+
+      .section-oldPost {
+         .div-oldPost {
+            div {
+               article {
+                  img {
+                     width: 250px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
