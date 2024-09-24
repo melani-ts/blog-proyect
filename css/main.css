@@ -13,15 +13,18 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 body header {
   width: 100vw;
   height: 20vh;
 }
+
 body header section {
   background-color: #47cfac;
   max-width: auto;
   height: auto;
 }
+
 body header section div {
   display: flex;
   justify-content: flex-end;
@@ -29,38 +32,45 @@ body header section div {
   gap: 30px;
   padding: 10px 50px;
 }
+
 body header section div a {
   text-decoration: none;
   color: #000;
 }
+
 body header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 50px;
 }
+
 body header nav div a {
   text-decoration: none;
   color: #000;
 }
+
 body header nav div img {
   width: 220px;
   min-width: 100px;
 }
+
 body header nav div .about-me {
   font-size: 1.8rem;
   color: #000;
   border-bottom: 1px solid #000;
   font-weight: 600;
 }
+
 body .main-container section {
-  background-image: url("/assets/img/Cover.png");
+  background-image: url("./assets/img/Cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: auto;
   height: 80vh;
 }
+
 body .main-container section div {
   display: flex;
   flex-direction: column;
@@ -71,6 +81,7 @@ body .main-container section div {
   height: 100%;
   gap: 100px;
 }
+
 body .main-container section div h1 {
   color: #FFF;
   font-size: 3rem;
@@ -78,6 +89,7 @@ body .main-container section div h1 {
   white-space: pre-line;
   letter-spacing: 10px;
 }
+
 body .main-container section div button {
   background-color: #47cfac;
   font-size: 2rem;
@@ -86,6 +98,7 @@ body .main-container section div button {
   border: none;
   cursor: pointer;
 }
+
 body .main-container section div button a {
   text-decoration: none;
   color: #000;
@@ -95,27 +108,34 @@ body .main-container section div button a {
   body {
     padding: 0;
   }
+
   body header {
     width: 100%;
     height: 10vh;
     padding: 0;
   }
+
   body header section {
     width: 100%;
   }
+
   body header section div {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+
   body header nav {
     width: 100%;
     padding: 0;
     justify-content: center;
   }
+
   body main section {
     width: 100%;
     height: 90vh;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
