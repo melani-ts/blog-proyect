@@ -50,10 +50,12 @@ body .main-container-blog .section-contact {
 }
 body .main-container-blog .section-contact div {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 body .main-container-blog .section-contact div img {
-  width: 100px;
+  width: 80px;
+  height: 80px;
 }
 body .main-container-blog .section-contact div div {
   display: flex;
