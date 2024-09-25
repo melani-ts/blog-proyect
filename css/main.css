@@ -63,7 +63,7 @@ body header nav div .about-me {
 }
 
 body .main-container section {
-  background-image: url("./assets/img/Cover.png");
+  background-image: url("../assets/img/Cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
